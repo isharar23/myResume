@@ -1,0 +1,184 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+
+    <style>
+        
+        div.pageSize 
+            {
+            width: 800px;
+            margin: auto;
+            border: 3px solid blue;
+            background-image:url("background.jpg");
+            padding: 10px;
+            }
+        /*--Header section--*/
+        .cvHeader
+            {   
+            border: 5px outset blue;
+            background-color: lightblue;    
+            text-align: center;
+            }
+
+        .cvlines
+            {   
+            background-color: rgb(240, 229, 74);     
+            }
+
+        /* Solid border */
+        hr.solid 
+            {
+            border-top: 3px solid #bbb;
+            }
+
+        /*--Skills section--*/
+            *{
+            box-sizing: border-box;
+            }
+        .skills
+            {   
+            float: left;
+            width: 50%;
+            padding: 10px;
+            border-radius: 20px;
+            background:  white;
+            border: 4px solid yellow;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px; 
+            }
+        .table:after 
+            {
+            content: "";
+            display: table;
+            clear: both;
+            }
+        .line
+            {
+            line-height: 20%;
+            }
+
+        .corners
+            {
+            border-radius: 30px;
+            background: whitesmoke;
+            border: 4px solid yellow;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 1px;
+            padding-bottom: 10px; 
+            width: auto;
+            height: auto;
+            }
+        .corners2
+            {
+            border-radius: 5px;
+            color: white;
+            background: rgb(39, 38, 38);
+            border: 4px solid  black;
+            padding-left: 10px;
+            width: auto;
+            height: auto;
+            }               
+    </style>
+
+</head>
+<body>
+
+    <div class="pageSize">
+
+    <header>    
+       <div class="cvHeader">
+            <h1>Resume of Ishara Ranasinghe</h1>
+            <p>Address - No. 23456, Stockholm, Sweden <br>
+            Contact - 077123456 <br>
+            <a href="mailto:isharar23@gmail.com?Subject=Contact%20Ishara" target="_top">Email - isharar23@gamil.com</a></p>
+        </div> 
+    </header>
+
+    <section id="profile">
+        <div class="corners2"><h3>Profile</h3></div><br>
+        <div class="corners"><p>Experienced and focused IT Professional who enjoys being a part of 
+            successful and productive team and wish to benefit your organization with skills, knowledge 
+            and expertise gained throughout previous experience in the IT Management, Network Administration 
+            and IT Support sector.</p></div><br>
+    </section>
+
+    <section id="skills">
+        <div class="corners2"><h3>Skills and Competenties</h3></div><br>
+           
+            <div class="table">
+                <div class="skills">
+                    <li>IT and technical skills</li>
+                    <li>Strategic planning</li>
+                    <li>Excellent organizational skills</li>
+                    <li>Hardware trouble shooting </li>
+                </div>
+                <div class="skills">
+                    <li>Decision-making and leadership</li>
+                    <li>Knowledge of hardware and software.</li>
+                    <li>Team management  </li>
+                    <li>Work under presure</li>
+                </div>
+            </div><br>
+    </section>
+
+    <section id="Jobs">
+        <div class="corners2"><h3>Work Expirience</h3></div><br>
+            <div class="corners">
+                <div class="line">
+                    <h4>Front end developer (2015-2019)</h4> 
+                    <h5><i>ABC sulutions LTD</i></h5> 
+                    <hr class="solid">
+                </div>
+                    <p>Responsible for security policies, analyzing network issues and evaluating alternative 
+                    solutions.  Analyzing and defining user issues and requirements in order to improve user 
+                    efficiency.</p> 
+                        <li>Strategic planning, analyzing and documenting processes </li>
+                        <li>Responsibility with top level management and vendors. </li>
+                        <li>Patch management</li>
+                   
+            </div><br>
+
+            <div class="corners"> 
+                <div class="line">
+                    <h4>Web developer (2013-2015)</h4>
+                    <h5><i>Front end sulutions LTD</i></h5>
+                    <hr class="solid">
+                </div>
+                    <p>Installation, configuration and administration of Windows servers, Firewalls and security 	devices. Resolved network related issues, performed regular system backups and 	
+                        disaster recovery procedures.</p>
+                        <li>Recommended, scheduled and performed network improvements.</li>
+                        <li>Resolved network related issues</li>
+                        <li>Performed regular system backups</li>
+                    
+            </div><br>
+    
+            <div class="corners">
+                <div class="line">
+                    <h4>IT support technician (2009-2013)</h4> 
+                    <h5><i>PC technologies</i></h5>
+                    <hr class="solid">
+                </div>
+                    <p>Provided functional and technical support, troubleshooting and diagnosing hardware and software problems. Ensure adequate antivirus protection & solutions are maintained and updated. Responsible for daily backups and disaster recovery management.</p>
+                        <li>Computer technology training with all fresh staff</li>
+                        <li>Provided functional and technical support</li>
+                        <li>Backups and disaster recovery management</li>
+            </div><br>
+        
+    </section>
+    <section>
+        <div class="corners2"><h3>Academic History</h3></div><br>
+            <div class="corners">
+                <li>School of high education</li>
+                <li>Diploma in University of Stockholm</li>
+                <li>Diploma in Front End Developing</li>
+            </div>           
+        </div>
+    </section>
+    
+</div>
+</body>
+</html>
